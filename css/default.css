@@ -1,0 +1,29 @@
+nav {
+    margin-top:1em;
+}
+nav > ul >li {
+    list-style: none;
+    float:left;
+    margin-right: 2em;
+    padding-right: 1em;
+    border-right: 2px solid black;
+}
+main {
+    margin-top: 6em;
+    z-index: -1
+}
+aside {
+    float:left;
+    position: fixed;
+    height: 100%;
+    width: 30%;
+    background-color: gray;
+}
+
+section{
+    margin-left: 30%;
+    padding-left: 1em;
+}
+.SideTitle{
+    text-align: center;
+}
