@@ -1,0 +1,33 @@
+
+body {
+	font-family:Verdana;
+	background-color:#0d1f3d;
+	color:#0D1F3D
+}
+
+fieldset > div > div{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+
+fieldset legend{
+	
+	font-weight: bold;
+	font-size: 30px;
+	padding-bottom: 10px;
+}
+
+fieldset{
+	border: 8px solid #0d1f3d;
+	border-radius: 1em;
+	background-color: #F4FFFC;
+}
+
+#divForm{
+	background-color: #396D8C;
+	padding: 5px 10px 15px 10px;
+	border-radius: 1em;
+	
+}
+
