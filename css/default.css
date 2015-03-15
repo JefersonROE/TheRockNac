@@ -1,44 +1,86 @@
 main {
-    height: 100%;
-    width: 100%;
+	height:100%;
+	width:100%
+}
+
+nav {
+	background-color: #223a59;
+	color:#fff;
+	padding: 1px;
+	border-radius: 0.5em;
+	margin-bottom:.5em;
+	font-size: 30px;
 }
 
 nav > ul >li {
-    display: inline;
-    list-style: none;
-    margin-left: 1em;
-    padding-right: 1em;
-    border-right: 2px solid black;
+	display:inline;
+	list-style:none;
+	padding-right:0.5em;
+	padding-left:0.5em;
+	border-right: 2px solid #fff;
+
 }
 
+
 aside {
-    float:left;
-    height: 100%;
-    width: 30%;
-    background-color: gray;
-    text-align: left;
+	float:left;
+	height:100%;
+	width: 12%;
+	background-color: #396d8c;
+	text-align:left;
+	border-radius:1.5em;
+
 }
 
 aside > ul > li {
-    list-style: none;
-    margin-top: 1em;
-    
+	list-style:none;
+	margin-top: 0.2em;
+	border: 1px solid #0d1f3d;
+	width:120px;
+	text-align:center;
+	border-radius: 0.4em;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 
-section{
-    margin-left: 30%;
-    padding-left: 1em;  
-}
-.SideTitle{
-    text-align: center;
+aside ul{
+
+
+padding-bottom: 30px;
+	
 }
 
-body{
+section {
+	margin-left: 12.5%;
+	padding:1em 1em 5em 2em;
+	background-color: #F4FFFC;
+	border-radius:1.5em
+;color: #0d1f3d;
+}
 
-    font-family: Verdana;
-    
+.SideTitle {
+	text-align:center
+;
+	color: white;
+}
+
+h2.SideTitle {
+    color: rgb(13, 31, 61);
+}
+
+body {
+	font-family:Verdana
+;
+	background-color: #0d1f3d;
+	color: #f2f2f2;
 }
 
 code {
-    font-weight: bold;
+	font-weight:700
+}
+
+ul {
+    margin: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
