@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+   <head>
+      <meta charset="UTF-8" />
+      <title>Cadastro</title>
+	  <link rel="stylesheet" type="text/css" href="css/FormularioEstilo.css">
+   </head>
+   <body>
+   <div id="divForm">
+      <form action="DadosFormularioRecebidoComSucesso.html" method="post">
+         <fieldset>
+		 
+		 <div>
+			<legend>Formulario de Contato</legend>
+		 
+		 
+            <div>
+               <label for="idNome">Nome Completo</label>
+               <input type="text" name="name" id="idNome" placeholder="Insira seu Nome">
+            </div>
+			
+			
+			
+            <div>
+            <div><label>Sexo:</label></div>
+               <input type="radio" name="sex" value="male"> Masculino
+               <br>
+               <input type="radio" name="sex" value="female"> Feminino
+            </div>
+			
+			
+			
+            <div>
+            <label for="idDataNascimento">Data de nascimento</label>
+               <input type="date" name="dataNascimento" id="idDataNascimento"/>
+            </div>
+			
+			
+			
+            <div>
+               <label for="idTel">Telefone</label>
+               <input type="text" name="tel" placeholder="Celular">
+               <input type="text" name="tel" placeholder="Residencial">
+            </div>
+			
+			
+			
+			
+			
+			
+            <div>
+               Digite sua homepage:
+               <input type="url" name="homepage" placeholder="http://">
+
+            </div>
+			
+			
+			
+			
+			
+			
+            <div>
+               <label for="idLogin">Login:</label> 
+               <input type="text" name="nickName" id="idLogin" placeholder="Insira seu Login">
+            </div>
+			
+			
+			
+			
+			
+			
+            <div>
+               <label for="idSenha">SENHA:</label > 
+               <input type="password" name="senha" id="idSenha" placeholder="Insira sua senha">
+            </div>
+			
+			
+			
+			
+			
+            <div>
+            <label for="idEmail">E-mail:</label>
+               <input type="email" name="email" id="idEmail" placeholder="Insira seu email"/>
+            </div>
+			
+			
+			
+			
+            <div>
+               <div>Qual te interessa mais?</div>			   
+               <input type="checkbox" name="html" > HTML
+               <br>
+               <input type="checkbox" name="css" > CSS
+               <br>
+               <input type="checkbox" name="js" > JS
+               <br>
+            </div>
+			
+			
+			
+			
+            <div>
+               Você aceita os termos?
+               <select name="termo">
+                  <option value="sim">Sim, aceito.</option>
+                  <option value="nao">Não, obrigado.</option>
+               </select>
+            </div>
+			
+			
+			
+			
+			
+			</div>
+         </fieldset>
+         <div>
+            <input type="submit" value="Enviar"/>
+         </div>
+      </form>
+	 </div>
+   </body>
+</html>
